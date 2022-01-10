@@ -1,0 +1,23 @@
+html{
+	background-color: rgb(97, 143, 7);
+	width: 100%;
+}
+body{
+	margin: 0%;
+	padding-top: 35%;
+}
+#About{
+	background-color: white;	
+	padding: 10px;
+	padding-right: 20%;
+	padding-left: 20%;	
+	font-size: 150%;
+}
+button{
+	background-color: rgb(97, 143, 7);
+	border-style: none;
+	color: white;
+	font-size: 100%;	
+	border-radius: 2px;	
+	margin-left: 80%;
+}
