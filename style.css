@@ -1,23 +1,102 @@
 html{
-	background-color: rgb(97, 143, 7);
+	background-color: rgb(253, 241, 223);
 	width: 100%;
+	font-family: Lucida Sans;
+	font-size: 15px;
 }
 body{
 	margin: 0%;
-	padding-top: 35%;
 }
-#About{
-	background-color: white;	
-	padding: 10px;
+#cookies_p{
+	background-color: rgb(120, 74, 6);
+	color: white;	
+	padding: 2%;
+	padding-left: 20%;
 	padding-right: 20%;
-	padding-left: 20%;	
+	height: 100%;
+	margin-top: 32%;	
 	font-size: 150%;
 }
-button{
-	background-color: rgb(97, 143, 7);
+#menu_1{	
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#menu_a{
+	text-align: center;
+	display: block;
+	padding: 1%;
+	background-color: rgb(243, 172, 67);
+}
+#menu_a:hover{
+	background-color: rgb(154, 96, 10);
+}
+#galeria_1{
+	text-align: center;
+	background-color: rgb(253, 244, 231);
+	height: 100%;	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#contato_1{
+	width: 100%;
+	background-color: white;
+}
+#rodape{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(154, 96, 10);
+}
+#contato_form{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#contato_table{
+	width: 70%;
+	padding-top: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#button_form{
+	background-color: rgb(243, 172, 67);
 	border-style: none;
+	width: 100%;
+	height: 50px;
 	color: white;
-	font-size: 100%;	
-	border-radius: 2px;	
-	margin-left: 80%;
+	font-size: 15px;	
+	border-radius: 1px;
+}
+#button_form:hover{
+	background-color: rgb(154, 96, 10);
+}
+table{
+	background-color: white;
+	color: rgb(86, 86, 86);
+}
+input{
+	width: 100%;
+	height: 30px;
+	margin-top: 2px;
+	font-size: 15px;
+	border-style: none;
+	-webkit-box-shadow: 0px 0px 2px;
+	font-family: Lucida Sans;
+	color: rgb(86, 86, 86);
+}
+textarea{
+	height: 50%;
+	width: 100%;
+	font-size: 15px;
+	margin-top: 2px;	
+	border-style: none;
+	-webkit-box-shadow: 0px 0px 2px;
+	font-family: Lucida Sans;
+	color: rgb(86, 86, 86);
+	resize: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+p{
+	color: rgb(243, 172, 67);
 }
