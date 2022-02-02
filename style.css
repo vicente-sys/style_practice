@@ -1,23 +1,48 @@
 html{
-	background-color: rgb(97, 143, 7);
+	background-color: white;
 	width: 100%;
 }
 body{
-	margin: 0%;
-	padding-top: 35%;
+	margin: 0%;	
 }
-#About{
-	background-color: white;	
-	padding: 10px;
+#cookies_p{
+	background-color: rgb(116, 116, 249);
+	color: white;	
+	padding: 2%;
+	padding-left: 20%;
 	padding-right: 20%;
-	padding-left: 20%;	
+	height: 100%;
+	margin-top: 32%;	
 	font-size: 150%;
 }
+#menu{	
+	margin-left: 5%;
+	width: 100%;
+	padding: 20px;
+	background-color: rgb(116, 116, 249);
+}
+#menu_a{
+	padding-right: 30px;
+	padding: 20px;
+	background-color: rgb(116, 116, 249);
+}
+#menu_a:hover{
+	background-color: rgb(57, 57, 249);
+}
+a{
+	color: white;
+	text-decoration: none;
+}
 button{
-	background-color: rgb(97, 143, 7);
+	text-decoration: none;
+	background-color: rgb(116, 116, 249);
 	border-style: none;
+	padding: 16px 16px;
 	color: white;
 	font-size: 100%;	
 	border-radius: 2px;	
 	margin-left: 80%;
+}
+button:hover{
+	background-color: rgb(57, 57, 249);
 }
